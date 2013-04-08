@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajaObjectGraph version="1.0">
+<p h="1" m="b=baja" t="b:Folder">
+ <!-- /ThreadPoolService -->
+ <p n="ThreadPoolService" h="2" m="nfeu=nfeu" t="nfeu:ThreadPoolService">
+  <p n="basic" h="3" t="nfeu:ThreadPool">
+  </p>
+  <p n="scheduled" h="4" t="nfeu:ScheduledThreadPool">
+  </p>
+ </p>
+</p>
+</bajaObjectGraph>

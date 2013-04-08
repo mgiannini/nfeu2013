@@ -1,0 +1,8 @@
+#
+# Lexicon for the nfeu module.
+#
+context.demo.noContext=No context
+context.demo.noUser=No user
+context.demo.user=Action was invoked by {0}
+
+slotName.fail=Not a valid slot name {0}

@@ -1,0 +1,32 @@
+<!--
+  ~ Copyright (c) 2013
+  ~ Licensed under the Academic Free License 3.0
+  -->
+
+<!-- Module Include File -->
+
+<!-- Types -->
+<types>
+  <!-- niagara.forum.eu.async -->
+  <type name="AbstractThreadPool" class="niagara.forum.eu.async.BAbstractThreadPool" />
+  <type name="AsyncExample" class="niagara.forum.eu.async.BAsyncExample" />
+  <type name="ThreadPool" class="niagara.forum.eu.async.BThreadPool" />
+  <type name="ScheduledThreadPool" class="niagara.forum.eu.async.BScheduledThreadPool"/>
+  <type name="ThreadPoolService" class="niagara.forum.eu.async.BThreadPoolService"/>
+
+  <!-- niagara.forum.eu.bql -->
+  <type name="CyclesAggregate" class="niagara.forum.eu.bql.BCyclesAggregate" />
+  <type name="Lib" class="niagara.forum.eu.bql.BLib" />
+
+  <!-- niagara.forum.eu.context -->
+  <type name="ContextDemo" class="niagara.forum.eu.context.BContextDemo" />
+
+  <!-- niagara.forum.eu.validator -->
+  <type name="SlotNameValidator" class="niagara.forum.eu.validator.BSlotNameValidator" />
+
+  <!-- tests -->
+  <type name="ExampleUnitTest" class="test.niagara.forum.eu.BExampleUnitTest" />
+  <type name="ThreadPoolTest" class="test.niagara.forum.eu.async.BThreadPoolTest" />
+  <type name="ScheduledThreadPoolTest" class="test.niagara.forum.eu.async.BScheduledThreadPoolTest" />
+  <type name="BqlTest" class="test.niagara.forum.eu.bql.BBqlTest" />
+</types>

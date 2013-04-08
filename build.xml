@@ -1,0 +1,32 @@
+<!--
+  ~ Copyright (c) 2013
+  ~ Licensed under the Academic Free License 3.0
+  -->
+
+<!-- Module Build File -->
+
+<module
+  name = "nfeu"
+  bajaVersion = "0"
+  preferredSymbol = "nfeu"
+  description = "Niagara Forum EU Code Examples"
+  vendor = "Tridium"
+>
+
+  <!-- Dependencies -->
+  <dependency name="baja" vendor="Tridium" vendorVersion="3.8" />
+  <dependency name="bql" vendor="Tridium" vendorVersion="3.8" />
+  <dependency name="concurrent" vendor="Tridium" vendorVersion="3.8" />
+
+  <!-- Packages -->
+  <package name="niagara.forum.eu" />
+  <package name="niagara.forum.eu.async" />
+  <package name="niagara.forum.eu.bql" />
+  <package name="niagara.forum.eu.context" />
+  <package name="niagara.forum.eu.validator" />
+
+  <package name="test.niagara.forum.eu" test="true" edition="j2se-5.0" />
+  <package name="test.niagara.forum.eu.async" test="true" edition="j2se-5.0" />
+  <package name="test.niagara.forum.eu.bql" test="true" edition="j2se-5.0" />
+
+</module>
